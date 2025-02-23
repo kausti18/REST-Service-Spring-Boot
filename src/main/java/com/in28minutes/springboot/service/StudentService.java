@@ -30,14 +30,14 @@ public class StudentService {
         Course courseFour = new Course("Course4", "Maven", "Most popular maven course on internet!",
                 List.of("Pom.xml", "Build Life Cycle", "Parent POM", "Importing into Eclipse"));
 
-        Student ranga = new Student("Student1", "Ranga Karanam", "Hiker, Programmer and Architect",
+        Student kaustubh = new Student("Student1", "Ranga Karanam", "Hiker, Programmer and Architect",
                 new ArrayList<>(List.of(courseOne, courseTwo, courseThree, courseFour)));
 
-        Student satish = new Student("Student2", "Satish T", "Hiker, Programmer and Architect",
+        Student ayush = new Student("Student2", "Satish T", "Hiker, Programmer and Architect",
                 new ArrayList<>(List.of(courseOne, courseTwo, courseThree, courseFour)));
 
-        students.add(ranga);
-        students.add(satish);
+        students.add(kaustubh);
+        students.add(ayush);
     }
 
     public List<Student> retrieveAllStudents() {
