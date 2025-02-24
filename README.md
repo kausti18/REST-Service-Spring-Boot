@@ -16,3 +16,5 @@ pom.xml - Contains all the dependencies needed to build this project. We will us
 -> IDE: Eclipse
 -> JDK 17
 -> Postman
+
+//Taken the inspiration from: https://www.springboottutorial.com/
